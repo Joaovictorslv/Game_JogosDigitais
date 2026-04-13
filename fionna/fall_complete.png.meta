@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: fb3782a94e1ada440aace067331d048a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4103245137744265970
+    second: fall_complete_0
+  - first:
+      213: -7848248841025540653
+    second: fall_complete_1
+  - first:
+      213: 6903109409913389887
+    second: fall_complete_2
+  - first:
+      213: 5541316064368075776
+    second: fall_complete_3
+  - first:
+      213: 2023477356322422405
+    second: fall_complete_4
+  - first:
+      213: 781004401527914848
+    second: fall_complete_5
+  - first:
+      213: 597502842035596439
+    second: fall_complete_6
+  - first:
+      213: -3663783163866318233
+    second: fall_complete_7
+  - first:
+      213: -2090189358108727484
+    second: fall_complete_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fall_complete_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 194
+        width: 29
+        height: 37
+      alignment: 9
+      pivot: {x: 0.6227922, y: 0.5176445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d776289485e07c0800000000000000
+      internalID: -4103245137744265970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fall_complete_1
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 193
+        width: 29
+        height: 39
+      alignment: 9
+      pivot: {x: 0.576084, y: 0.5353597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd2dc9c24b651390800000000000000
+      internalID: -7848248841025540653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fall_complete_2
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 190
+        width: 28
+        height: 45
+      alignment: 9
+      pivot: {x: 0.6094851, y: 0.5323588}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f334b8f1f65cccf50800000000000000
+      internalID: 6903109409913389887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fall_complete_3
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 189
+        width: 27
+        height: 50
+      alignment: 9
+      pivot: {x: 0.6107076, y: 0.4930487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00423d4f995b6ec40800000000000000
+      internalID: 5541316064368075776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fall_complete_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 61
+        width: 27
+        height: 44
+      alignment: 9
+      pivot: {x: 0.57677925, y: 0.5584875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ef4aa4fe5d41c10800000000000000
+      internalID: 2023477356322422405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fall_complete_5
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 61
+        width: 27
+        height: 44
+      alignment: 9
+      pivot: {x: 0.61327165, y: 0.58008504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06186118d5fa6da00800000000000000
+      internalID: 781004401527914848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fall_complete_6
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 61
+        width: 27
+        height: 45
+      alignment: 9
+      pivot: {x: 0.59561723, y: 0.56068015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c61db4ba1ca4800800000000000000
+      internalID: 597502842035596439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fall_complete_7
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 84
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76af0bfbf90a72dc0800000000000000
+      internalID: -3663783163866318233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fall_complete_8
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 17
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447a0a46ad72ef2e0800000000000000
+      internalID: -2090189358108727484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 04f6754b0ba290941a9258f0ea3dca4b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fall_complete_0: -4103245137744265970
+      fall_complete_1: -7848248841025540653
+      fall_complete_2: 6903109409913389887
+      fall_complete_3: 5541316064368075776
+      fall_complete_4: 2023477356322422405
+      fall_complete_5: 781004401527914848
+      fall_complete_6: 597502842035596439
+      fall_complete_7: -3663783163866318233
+      fall_complete_8: -2090189358108727484
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

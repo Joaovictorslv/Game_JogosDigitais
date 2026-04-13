@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 5ae70d3308bc7ed4cbb469bd401f8d27
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7747308693062807759
+    second: deathani_0
+  - first:
+      213: 7485622433953239586
+    second: deathani_1
+  - first:
+      213: -8279870477082562299
+    second: deathani_2
+  - first:
+      213: -9060487922269939856
+    second: deathani_3
+  - first:
+      213: 6975076309043229975
+    second: deathani_4
+  - first:
+      213: 508588779287693481
+    second: deathani_5
+  - first:
+      213: 8144660810630410562
+    second: deathani_6
+  - first:
+      213: -1827687622357305032
+    second: deathani_7
+  - first:
+      213: 5845494384578094440
+    second: deathani_8
+  - first:
+      213: -5891017188807778718
+    second: deathani_9
+  - first:
+      213: -5170874422800325190
+    second: deathani_10
+  - first:
+      213: -786805906420244765
+    second: deathani_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: deathani_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 12
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f02b86ac70c7490800000000000000
+      internalID: -7747308693062807759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deathani_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 26
+        height: 29
+      alignment: 9
+      pivot: {x: 0.50297046, y: 0.5905459}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2225a7271f542e760800000000000000
+      internalID: 7485622433953239586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deathani_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 29
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501ff337badf71d80800000000000000
+      internalID: -8279870477082562299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deathani_3
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 29
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077126d3d3ea24280800000000000000
+      internalID: -9060487922269939856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deathani_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 29
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715b3c192f27cc060800000000000000
+      internalID: 6975076309043229975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deathani_5
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 19
+        width: 48
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5080674, y: 0.61295}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a84136dccede0700800000000000000
+      internalID: 508588779287693481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deathani_6
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 33
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241bba1ead5a70170800000000000000
+      internalID: 8144660810630410562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deathani_7
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 19
+        width: 48
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5062812, y: 0.72110367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839b30d7acfb2a6e0800000000000000
+      internalID: -1827687622357305032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deathani_8
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 19
+        width: 48
+        height: 26
+      alignment: 9
+      pivot: {x: 0.49371815, y: 0.7203305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86561590c2e5f1150800000000000000
+      internalID: 5845494384578094440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deathani_9
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 19
+        width: 48
+        height: 31
+      alignment: 9
+      pivot: {x: 0.49807867, y: 0.73199534}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e54672417ee3ea0800000000000000
+      internalID: -5891017188807778718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deathani_10
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 19
+        width: 48
+        height: 30
+      alignment: 9
+      pivot: {x: 0.49292818, y: 0.6923688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab565d2eb1d5d38b0800000000000000
+      internalID: -5170874422800325190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deathani_11
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 19
+        width: 48
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5068722, y: 0.76620865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee54a06234b415f0800000000000000
+      internalID: -786805906420244765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3a3011b63cb251d4d9bac5a1d0924668
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      deathani_0: -7747308693062807759
+      deathani_1: 7485622433953239586
+      deathani_10: -5170874422800325190
+      deathani_11: -786805906420244765
+      deathani_2: -8279870477082562299
+      deathani_3: -9060487922269939856
+      deathani_4: 6975076309043229975
+      deathani_5: 508588779287693481
+      deathani_6: 8144660810630410562
+      deathani_7: -1827687622357305032
+      deathani_8: 5845494384578094440
+      deathani_9: -5891017188807778718
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

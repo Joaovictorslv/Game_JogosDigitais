@@ -1,0 +1,475 @@
+fileFormatVersion: 2
+guid: dd944c16f6a6bf24b91437489c16e096
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9147742088824636834
+    second: magifrog_0
+  - first:
+      213: -5578096763048839368
+    second: magifrog_1
+  - first:
+      213: -3538867040219726033
+    second: magifrog_2
+  - first:
+      213: 1847114732438154093
+    second: magifrog_3
+  - first:
+      213: 909819965182917366
+    second: magifrog_4
+  - first:
+      213: -6614265439831380859
+    second: magifrog_5
+  - first:
+      213: -407258336858357945
+    second: magifrog_6
+  - first:
+      213: 7899407689062567733
+    second: magifrog_7
+  - first:
+      213: -3266981097743927234
+    second: magifrog_8
+  - first:
+      213: 7579530109959220649
+    second: magifrog_9
+  - first:
+      213: 1922932560820105409
+    second: magifrog_10
+  - first:
+      213: 1904682532068087425
+    second: magifrog_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: magifrog_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 103
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5484586fe43fe70800000000000000
+      internalID: 9147742088824636834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magifrog_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 108
+        width: 44
+        height: 45
+      alignment: 9
+      pivot: {x: 0.34968913, y: 0.61626047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837b7bb4c8e9692b0800000000000000
+      internalID: -5578096763048839368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magifrog_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 68
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f7d583d2b63eec0800000000000000
+      internalID: -3538867040219726033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magifrog_3
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 84
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6bed5e001542a910800000000000000
+      internalID: 1847114732438154093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magifrog_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 28
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa394a107450ac00800000000000000
+      internalID: 909819965182917366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magifrog_5
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 56
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c25b850a86534a0800000000000000
+      internalID: -6614265439831380859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magifrog_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 72
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74fbdbb43b0295af0800000000000000
+      internalID: -407258336858357945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magifrog_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 56
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f409ab07550ad60800000000000000
+      internalID: 7899407689062567733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magifrog_8
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 72
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38be05300a59a2d0800000000000000
+      internalID: -3266981097743927234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magifrog_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 71
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad2f781a76ef2960800000000000000
+      internalID: 7579530109959220649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magifrog_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 9
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0f6b6d9f0afaa10800000000000000
+      internalID: 1922932560820105409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magifrog_11
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 9
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1865fc5ebaace6a10800000000000000
+      internalID: 1904682532068087425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magifrog_12
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 108
+        width: 36
+        height: 48
+      alignment: 9
+      pivot: {x: 0.47695234, y: 0.57490444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e275b3ba3422b2b4e9b09353a2a5f3cb
+      internalID: 2084703337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magifrog_13
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 110
+        width: 44
+        height: 46
+      alignment: 9
+      pivot: {x: 0.33398488, y: 0.51287544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c3f5d88c0882344b3ff0f243657643
+      internalID: -474663484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0eefe2cbbc426564f9f81b7dc4ab8760
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      magifrog_0: 9147742088824636834
+      magifrog_1: -5578096763048839368
+      magifrog_10: 1922932560820105409
+      magifrog_11: 1904682532068087425
+      magifrog_12: 2084703337
+      magifrog_13: -474663484
+      magifrog_2: -3538867040219726033
+      magifrog_3: 1847114732438154093
+      magifrog_4: 909819965182917366
+      magifrog_5: -6614265439831380859
+      magifrog_6: -407258336858357945
+      magifrog_7: 7899407689062567733
+      magifrog_8: -3266981097743927234
+      magifrog_9: 7579530109959220649
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

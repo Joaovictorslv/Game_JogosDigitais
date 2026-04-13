@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 131844ccdc108194d823911dab89dd86
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5765088941913385314
+    second: ursobest_0
+  - first:
+      213: 3633478781221468834
+    second: ursobest_1
+  - first:
+      213: 7968897165371389391
+    second: ursobest_2
+  - first:
+      213: 4701570684456125763
+    second: ursobest_3
+  - first:
+      213: 5710495864103849894
+    second: ursobest_4
+  - first:
+      213: -1062238460585958720
+    second: ursobest_5
+  - first:
+      213: -420293198079955696
+    second: ursobest_6
+  - first:
+      213: 4821240191752470893
+    second: ursobest_7
+  - first:
+      213: -8927632370455972792
+    second: ursobest_8
+  - first:
+      213: 3814344204712791314
+    second: ursobest_9
+  - first:
+      213: 7562201730188085270
+    second: ursobest_10
+  - first:
+      213: -3221200694379744352
+    second: ursobest_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ursobest_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 117
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9658bee62a4effa0800000000000000
+      internalID: -5765088941913385314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ursobest_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 118
+        width: 85
+        height: 37
+      alignment: 9
+      pivot: {x: 0.3923119, y: 0.58078086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aaff9553b5bc6230800000000000000
+      internalID: 3633478781221468834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ursobest_2
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 120
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5349930c5379e60800000000000000
+      internalID: 7968897165371389391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ursobest_3
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 125
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345c565a0a55f3140800000000000000
+      internalID: 4701570684456125763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ursobest_4
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 123
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af4f3f9bb1cf3f40800000000000000
+      internalID: 5710495864103849894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ursobest_5
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 121
+        width: 64
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c224028fbb2241f0800000000000000
+      internalID: -1062238460585958720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ursobest_6
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 54
+        width: 75
+        height: 37
+      alignment: 9
+      pivot: {x: 0.48206335, y: 0.528557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d6eea2091da2af0800000000000000
+      internalID: -420293198079955696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ursobest_7
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 54
+        width: 59
+        height: 45
+      alignment: 9
+      pivot: {x: 0.46187204, y: 0.45908305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d610e3e096c78e240800000000000000
+      internalID: 4821240191752470893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ursobest_8
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 91
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84471b1e8adaa1480800000000000000
+      internalID: -8927632370455972792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ursobest_9
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 92
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21dc9fc48d54fe430800000000000000
+      internalID: 3814344204712791314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ursobest_10
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 92
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61884b7486652f860800000000000000
+      internalID: 7562201730188085270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ursobest_11
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 13
+        width: 68
+        height: 25
+      alignment: 9
+      pivot: {x: 0.45311755, y: 0.68552035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3f04df80ffb43d0800000000000000
+      internalID: -3221200694379744352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 90c066b6b08ebee40b653bf8d28cfdbb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ursobest_0: -5765088941913385314
+      ursobest_1: 3633478781221468834
+      ursobest_10: 7562201730188085270
+      ursobest_11: -3221200694379744352
+      ursobest_2: 7968897165371389391
+      ursobest_3: 4701570684456125763
+      ursobest_4: 5710495864103849894
+      ursobest_5: -1062238460585958720
+      ursobest_6: -420293198079955696
+      ursobest_7: 4821240191752470893
+      ursobest_8: -8927632370455972792
+      ursobest_9: 3814344204712791314
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
