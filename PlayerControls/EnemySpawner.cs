@@ -42,9 +42,13 @@ public class EnemySpawner : MonoBehaviour {
 
         // Se não estiver pausado, segue com a tentativa de spawn
         Vector2 randomPos = GetRandomPointInBounds();
+
+        if (Physics2D.OverlapPoint(randomPos, groundLayer)) return;
+
         RaycastHit2D hitGround = Physics2D.Raycast(randomPos, Vector2.down, 5f, groundLayer);
 
         if (hitGround.collider != null) {
+            // Verifica se o lugar onde ele vai nascer está livre de paredes
             Collider2D overlapWall = Physics2D.OverlapCircle(hitGround.point + new Vector2(0, 1f), 0.5f, wallLayer);
 
             if (overlapWall == null) {

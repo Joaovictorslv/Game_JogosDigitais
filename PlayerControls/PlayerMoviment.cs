@@ -17,7 +17,7 @@ public class PlayerMoviment : MonoBehaviour
     float horizontalMoviment;
 
     [Header("Jumping")]
-    public float jumpPower = 5f;
+    public float jumpPower = 20f;
     public int maxJumps = 2;
     int jumpsRemaining;
 
@@ -76,53 +76,97 @@ public class PlayerMoviment : MonoBehaviour
     [Header("UI Reference")]
     public HealthManager healthUI;
 
+    [Header("UI Death")]
+    public GameObject deathScreenPanel;
 
+    
+    [Header("Special Ability")]
+    public AnimatorOverrideController specialModeController;
+    private RuntimeAnimatorController normalController;
+    private bool isSpecialMode = false;
+    private float specialDuration = 20f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
-    void Start()
-    {
-        currentHealth = maxHealth;
-    }
+void Start() {
+    currentHealth = maxHealth;
+    normalController = anim.runtimeAnimatorController; // Salva o controlador normal
+}
 
     // Update is called once per frame
-    void Update()
+void Update()
+{
+    // Se o player estiver morto, para a execução do Update aqui mesmo
+    // Isso elimina os erros de 'linearVelocity' e permite que a Coroutine rode
+    if (isDead) return; 
+
+    GroundCheck();
+    if (nextAttackTime > 0) nextAttackTime -= Time.deltaTime;
+    CheckDash();
+    Gravity();  
+    WallCheck();
+    WallSlide();
+    WallJump();
+
+    if (isDashing) return;
+
+    if(!isWallJumping)
     {
-        
-        GroundCheck();
-
-        if (nextAttackTime > 0) nextAttackTime -= Time.deltaTime;
-
-        CheckDash();
-        Gravity();  
-        WallCheck();
-        WallSlide();
-        WallJump();
-
-        if (isDashing) return;
-
-        if(!isWallJumping)
-        {
-            rb.linearVelocity =  new Vector2(horizontalMoviment * moveSpeed, rb.linearVelocity.y);
-            if(!isWallSliding) // ✅ não faz flip enquanto está na parede
-            {
-                Flip();
-            }
-        }
-
-        anim.SetFloat("yVelocity", rb.linearVelocity.y);
-        anim.SetFloat("magnetude", Mathf.Abs(rb.linearVelocity.x));
-        anim.SetBool("isWallSliding", isWallSliding);
-        anim.SetBool("isGrounded", isGrounded);
-        anim.SetBool("isDashing", isDashing);
-
-        //Debug.Log($"magnetude: {Mathf.Abs(rb.linearVelocity.x)} | yVelocity: {rb.linearVelocity.y} | isGrounded: {isGrounded}");
+        rb.linearVelocity = new Vector2(horizontalMoviment * moveSpeed, rb.linearVelocity.y);
+        if(!isWallSliding) Flip();
     }
+
+    // Atualiza animações apenas se vivo
+    anim.SetFloat("yVelocity", rb.linearVelocity.y);
+    anim.SetFloat("magnetude", Mathf.Abs(rb.linearVelocity.x));
+    anim.SetBool("isWallSliding", isWallSliding);
+    anim.SetBool("isGrounded", isGrounded);
+    anim.SetBool("isDashing", isDashing);
+}
+
+//Special Mode_________________________________________________________________________
+public void OnSpecialAbility(UnityEngine.InputSystem.InputAction.CallbackContext context) {
+    // Requisito: Apenas com 8 cristais e clicando Shift
+    if (context.performed) {
+        Debug.Log("Tecla Shift detectada! Tentando ativar especial...");
+        
+        if (PowerManager.instance.IsFull()) {
+            Debug.Log("Poder cheio! Iniciando Corrotina.");
+            StartCoroutine(ActivateSpecialMode());
+        } else {
+            Debug.Log("Poder insuficiente para ativar.");
+        }
+    }
+}
+
+private IEnumerator ActivateSpecialMode() 
+{
+    // --- INÍCIO DO MODO ESPECIAL ---
+    isSpecialMode = true;
+    PowerManager.instance.ResetPower();
+
+    // Salva o controlador normal se for a primeira vez
+    if (normalController == null) normalController = anim.runtimeAnimatorController;
+
+    // Executa animação de Transformação e troca os Sprites
+    anim.SetTrigger("transform");
+    anim.runtimeAnimatorController = specialModeController;
+
+    // --- AGUARDA EXATAMENTE 20 SEGUNDOS ---
+    yield return new WaitForSeconds(specialDuration);
+
+    // --- RESET DO MODO ESPECIAL ---
+    isSpecialMode = false; // Volta a levar dano
+    anim.runtimeAnimatorController = normalController; // Volta as animações originais
+    
+    // Opcional: Trigger para uma animação de "destransformação"
+    anim.SetTrigger("idle");
+}
 
 //Health & Damage ____________________________________________________________________
 
 public void TakeDamage(int damage) 
 {
-    if (isDead) return;
+    if (isDead || isSpecialMode) return;
     
     currentHealth -= damage;
     //Debug.Log("Player Perdeu Vida! Restam: " + currentHealth);
@@ -149,25 +193,37 @@ public void TakeDamage(int damage)
     }
 }
 
-    public void Die() 
-{
-    if (isDead) return; // Evita rodar a morte duas vezes
-    isDead = true;
-    
-    // Ativa a animação de morte
+public void Die() {
+    if (isDead) return;
+    isDead = true; // Agora o Update vai parar de rodar no próximo frame
+
+    // 1. Inicia a animação imediatamente
     anim.SetTrigger("death"); 
-
-    // Para o movimento físico imediatamente
+    
+    // 2. Trava a física para não dar erro de static body
     rb.linearVelocity = Vector2.zero;
-    
-    // Muda a Layer para não bater mais nos inimigos enquanto cai
+    rb.bodyType = RigidbodyType2D.Static; 
     gameObject.layer = LayerMask.NameToLayer("Ignore Raycast");
-    
-    // Desativa este script para parar o spam de inputs
-    this.enabled = false;
 
-    // Chama a função de reiniciar após 3 segundos
-    Invoke("ReiniciarFase", 10f);
+    // 3. Inicia a sequência de tempo (A Coroutine não será interrompida agora)
+    StartCoroutine(SequenciaDeMorte());
+}
+
+IEnumerator SequenciaDeMorte() {
+    Debug.Log("Aguardando animação de morte...");
+    yield return new WaitForSeconds(7f); // Tempo para a animação rodar
+
+    if(deathScreenPanel != null) {
+        deathScreenPanel.SetActive(true);
+        Debug.Log("Tela de morte ativada!");
+    }
+
+    yield return new WaitForSeconds(3f); // Tempo com a tela visível
+    SceneManager.LoadScene("StartMenu");
+}
+
+void VoltarAoMenu() {
+    SceneManager.LoadScene("StartMenu");
 }
 
 // Função auxiliar que o Invoke vai chamar

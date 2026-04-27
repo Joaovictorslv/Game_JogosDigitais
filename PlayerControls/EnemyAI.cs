@@ -183,6 +183,11 @@ public class EnemyAI : MonoBehaviour {
     if (isDead) return;
     isDead = true;
 
+    // --- ADICIONADO: Avisa o gerenciador que um inimigo foi derrotado ---
+    if (ScoreManager.instance != null) {
+        ScoreManager.instance.AddKill();
+    }
+
     if(anim != null) anim.SetTrigger("death");
 
     // SOLUÇÃO PARA NÃO CAIR PELO CHÃO:
